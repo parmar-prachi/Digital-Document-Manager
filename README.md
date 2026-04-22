@@ -1,12 +1,74 @@
-# React + Vite
+📄 Digital Document Manager (React + Firebase + Redux) ::
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern web application designed to manage digital files efficiently in the cloud ☁️. Built using React.js for the frontend, Redux Toolkit for state management, and Firebase Storage for secure file handling, it allows users to upload, organize, and manage documents seamlessly.
 
-Currently, two official plugins are available:
+✨ Key Highlights ::
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📤 Upload Files :
+Users can upload PDFs, images, resumes, certificates, and reports with details like file name, type, size, and upload date.
 
-## Expanding the ESLint configuration
+👀 View & Preview Documents :
+All files are displayed in a clean UI (table/card format) with preview and download options.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✏️ Update Metadata :
+Edit file details such as name, category, and description easily.
+
+🗑️ Delete Files :
+Remove unwanted files instantly from both UI and Firebase storage.
+
+📂 Category Management :
+Organize files into categories like Personal, Academic, Office, and Certificates.
+
+🔍 Search & Filter :
+Quickly find files by name, type, or upload date.
+
+⚡ Real-Time Updates :
+Redux ensures instant UI updates without page refresh.
+
+🧠 How It Works ::
+
+Redux Thunk handles async operations like upload, fetch, delete 🔄
+Firebase Storage securely stores files 🔐
+(Optional) Firebase Database manages metadata 📊
+UI stays in sync with state changes automatically ⚡
+
+💼 Use Case ::
+
+Perfect for colleges, offices, or organizations where multiple users need to upload and manage documents in one place 🏫🏢
+Example:
+
+Students upload certificates 🎓
+Faculty upload reports 📑
+Admin verifies and downloads documents 👨‍💼
+
+🛠️ Tech Stack ::
+
+⚛️ React.js
+🧠 Redux Toolkit
+☁️ Firebase Storage
+🔄 Redux Thunk
+🎨 Tailwind CSS / Material UI
+🚀 Vercel / Firebase Hosting
+
+🔥 Advanced Features (Optional) ::
+
+Drag & drop upload 🖱️
+Upload progress bar 📊
+File preview before upload 👁️
+User authentication 🔐
+Role-based access control 👥
+
+FORM LAYOUT ::
+
+<img width="379" height="402" alt="ss-1" src="https://github.com/user-attachments/assets/4d2c61b3-7932-4eb5-8b82-4bf4af10b39b" />
+
+
+DASHBOARD LAYOUT ::
+
+<img width="384" height="231" alt="ss-2" src="https://github.com/user-attachments/assets/a7b649bd-779b-498c-9862-59da1dfe178f" />
+
+
+EDIT PAGE LAYOUT ::
+
+<img width="1280" height="800" alt="ss-3" src="https://github.com/user-attachments/assets/649633c8-a859-4840-9d71-937b793d2225" />
+
