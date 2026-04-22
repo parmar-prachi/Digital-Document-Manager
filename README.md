@@ -63,6 +63,7 @@ FORM LAYOUT ::
 <img width="379" height="402" alt="ss-1" src="https://github.com/user-attachments/assets/4d2c61b3-7932-4eb5-8b82-4bf4af10b39b" />
 
 
+
 DASHBOARD LAYOUT ::
 
 <img width="384" height="231" alt="ss-2" src="https://github.com/user-attachments/assets/a7b649bd-779b-498c-9862-59da1dfe178f" />
@@ -70,5 +71,5 @@ DASHBOARD LAYOUT ::
 
 EDIT PAGE LAYOUT ::
 
-<img width="1280" height="800" alt="ss-3" src="https://github.com/user-attachments/assets/649633c8-a859-4840-9d71-937b793d2225" />
+<img width="387" height="227" alt="ss-3" src="https://github.com/user-attachments/assets/7f0c4da4-c467-469a-9740-b9df68816f7e" />
 
